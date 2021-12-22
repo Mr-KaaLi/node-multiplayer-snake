@@ -1,8 +1,9 @@
+    node ('Build-In Node'){  
     //def app
     stage('Cloning Git') {
         /* Let's make sure we have the repository cloned to our workspace */
        checkout scm
-    }  
+    }   
     stage('Build-and-Tag') {
         sh 'echo Build-andTag'
     /* This builds the actual image; synonymous to
