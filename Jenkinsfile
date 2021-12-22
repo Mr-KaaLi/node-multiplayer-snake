@@ -15,7 +15,7 @@ node ('Master'){
      }
    stage('Post-to-dockerhub') {
         sh 'echo Post to-dockerhub'
-   
+   }
    stage('Pull-image-server') {
        sh 'echo pull image server'
       }
