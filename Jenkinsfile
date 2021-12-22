@@ -19,3 +19,4 @@
    stage('Pull-image-server') {
        sh 'echo pull image server'
       }
+    }
